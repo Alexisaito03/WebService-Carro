@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class IndexController {
-    public String get(){
+    public String get() {
         return "API dos carros";
     }
 }
