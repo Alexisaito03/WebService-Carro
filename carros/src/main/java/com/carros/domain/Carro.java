@@ -11,6 +11,7 @@ public class Carro {
 
     @Column(name = "nome") // Seria necessário caso o nome do atributo fosse diferente do nome da coluna da tabela
     private String nome;
+    private String tipo;
 
     public Carro(){
 
@@ -35,5 +36,13 @@ public class Carro {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
